@@ -1,0 +1,34 @@
+{
+    "CALENDAR": {
+        "CALENDAR": "Calendario",
+        "SEARCH": "Buscar",
+        "TODAY": "Ahora",
+        "DAY": "Dia",
+        "WEEK": "Semana",
+        "MONTH": "Mes",
+        "PREVIOUS": "Anterior",
+        "NEXT": "Siguiente",
+        "ADD_EVENT": "Agregar Evento",
+        "EDIT_EVENT": "Editar Evento",
+        "CLOSE_DIALOG": "Cerrar",
+        "TITLE": "Titulo",
+        "ALL_DAY": "Todo el dia",
+        "START_DATE": "Fecha Inicio",
+        "START_TIME": "Hora Inicio",
+        "END_DATE": "Fecha Fin",
+        "END_TIME": "Hora Fin",
+        "REPEAT": "Repetir",
+        "LOCATION": "Ubicacion",
+        "NOTIFICATIONS": "Notificaciones",
+        "ADD_NOTIFICATION": "+ Agregar Nueva Notificacion",
+        "NOTES": "Notas",
+        "SAVE": "GUARDAR",
+        "DELETE": "Eliminar",
+        "30_MIN_BEFORE": "30 minutos antes",
+        "15_MIN_BEFORE": "15 minutos antes",
+        "30_MIN_LATER": "30 minutos despues",
+        "ERRORS": {
+            "TITLE_REQUIRED": "Campo requerido"
+        }
+    }
+}

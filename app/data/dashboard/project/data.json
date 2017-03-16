@@ -1,0 +1,1078 @@
+{
+    "projects": [
+        {
+            "name": "Zurqui 1"
+        },
+        {
+            "name": "Zurqui 2"
+        }
+    ],
+    "widget1": {
+        "ranges": {
+            "DY": "Ayer",
+            "DT": "Ahora",
+            "DTM": "Mañana"
+        },
+        "currentRange": "DT",
+        "data": {
+            "label": "Cortes Pendiente",
+            "count": {
+                "DY": 21,
+                "DT": 25,
+                "DTM": 19
+            },
+            "extra": {
+                "label": "Completados",
+                "count": {
+                    "DY": 6,
+                    "DT": 7,
+                    "DTM": "-"
+                }
+            }
+        },
+        "detail": "Detalles de cortes en tiempo real."
+    },
+    "widget2": {
+        "title": "Pedidos",
+        "data": {
+            "label": "Pedidos Pendientes",
+            "count": 4,
+            "extra": {
+                "label": "Pedidos completados",
+                "count": 2
+            }
+        },
+        "detail": "Detalles de pedidos en tiempo real."
+    },
+    "widget3": {
+        "title": "Embolsadores",
+        "data": {
+            "label": "Parcelas",
+            "count": 15,
+            "extra": {
+                "label": "Atrasados",
+                "count": 0
+            }
+        },
+        "detail": "Informacion detallada en tiempo real."
+    },
+    "widget4": {
+        "title": "Acumulado",
+        "data": {
+            "label": "Semana",
+            "count": 6,
+            "extra": {
+                "label": "Pedidos",
+                "count": 8
+            }
+        },
+        "detail": "Informacion detallada."
+    },
+    "widget5": {
+        "title": "Estadisticas",
+        "ranges": {
+            "TW": "Esta semana",
+            "LW": "Semana pasada",
+            "2W": "Hace 2 semanas"
+        },
+        "mainChart": [
+            {
+                "key": "Grupos cosechados",
+                "values": {
+                    "2W": [
+                        {"x": "LU", "y": 9},
+                        {"x": "MA", "y": 12},
+                        {"x": "MI", "y": 9},
+                        {"x": "JU", "y": 12},
+                        {"x": "VI", "y": 7},
+                        {"x": "SA", "y": 8},
+                        {"x": "DO", "y": 16}
+                    ],
+                    "LW": [
+                        {"x": "LU", "y": 12},
+                        {"x": "MA", "y": 8},
+                        {"x": "MI", "y": 7},
+                        {"x": "JU", "y": 13},
+                        {"x": "VI", "y": 7},
+                        {"x": "SA", "y": 6},
+                        {"x": "DO", "y": 10}
+                    ],
+                    "TW": [
+                        {"x": "LU", "y": 11},
+                        {"x": "MA", "y": 10},
+                        {"x": "MI", "y": 8},
+                        {"x": "JU", "y": 11},
+                        {"x": "VI", "y": 8},
+                        {"x": "SA", "y": 10},
+                        {"x": "DO", "y": 17}
+                    ]
+                }
+            },
+            {
+                "key": "Parcelas",
+                "values": {
+                    "2W": [
+                        {"x": "LU", "y": 37},
+                        {"x": "MA", "y": 32},
+                        {"x": "MI", "y": 39},
+                        {"x": "JU", "y": 27},
+                        {"x": "VI", "y": 18},
+                        {"x": "SA", "y": 24},
+                        {"x": "DO", "y": 20}
+                    ],
+                    "LW": [
+                        {"x": "LU", "y": 37},
+                        {"x": "MA", "y": 24},
+                        {"x": "MI", "y": 51},
+                        {"x": "JU", "y": 31},
+                        {"x": "VI", "y": 29},
+                        {"x": "SA", "y": 17},
+                        {"x": "DO", "y": 31}
+                    ],
+                    "TW": [
+                        {"x": "LU", "y": 42},
+                        {"x": "MA", "y": 28},
+                        {"x": "MI", "y": 43},
+                        {"x": "JU", "y": 34},
+                        {"x": "VI", "y": 20},
+                        {"x": "SA", "y": 25},
+                        {"x": "DO", "y": 22}
+                    ]
+                }
+            }
+        ],
+        "supporting": {
+            "created": {
+                "label": "GRUPO 01",
+                "count": {
+                    "2W": 48,
+                    "LW": 46,
+                    "TW": 54
+                },
+                "chart": {
+                    "key": "Grupo 01",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 8},
+                            {"x": 2, "y": 5},
+                            {"x": 3, "y": 6},
+                            {"x": 4, "y": 7},
+                            {"x": 5, "y": 8},
+                            {"x": 6, "y": 7}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 3},
+                            {"x": 2, "y": 7},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 3},
+                            {"x": 1, "y": 2},
+                            {"x": 2, "y": 1},
+                            {"x": 3, "y": 4},
+                            {"x": 4, "y": 8},
+                            {"x": 5, "y": 8},
+                            {"x": 6, "y": 4}
+                        ]
+                    }
+                }
+            },
+            "closed": {
+                "label": "GRUPO 02",
+                "count": {
+                    "2W": 27,
+                    "LW": 31,
+                    "TW": 26
+                },
+                "chart": {
+                    "key": "Grupo 02",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 3},
+                            {"x": 1, "y": 2},
+                            {"x": 2, "y": 1},
+                            {"x": 3, "y": 4},
+                            {"x": 4, "y": 8},
+                            {"x": 5, "y": 8},
+                            {"x": 6, "y": 4}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 5},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 7},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 3},
+                            {"x": 2, "y": 7},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ]
+                    }
+                }
+            },
+            "reOpened": {
+                "label": "GRUPO 03",
+                "count": {
+                    "2W": 4,
+                    "LW": 5,
+                    "TW": 2
+                },
+                "chart": {
+                    "key": "Grupo 03",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 3},
+                            {"x": 2, "y": 7},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 7},
+                            {"x": 2, "y": 8},
+                            {"x": 3, "y": 8},
+                            {"x": 4, "y": 6},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 1}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 3},
+                            {"x": 1, "y": 2},
+                            {"x": 2, "y": 1},
+                            {"x": 3, "y": 4},
+                            {"x": 4, "y": 8},
+                            {"x": 5, "y": 8},
+                            {"x": 6, "y": 4}
+                        ]
+                    }
+                }
+            },
+            "wontFix": {
+                "label": "GRUPO 04",
+                "count": {
+                    "2W": 6,
+                    "LW": 3,
+                    "TW": 4
+                },
+                "chart": {
+                    "key": "Grupo 04",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 7},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 6},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 3},
+                            {"x": 6, "y": 2}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 3},
+                            {"x": 2, "y": 7},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 5},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 7},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ]
+                    }
+                }
+            },
+            "needsTest": {
+                "label": "GRUPO 05",
+                "count": {
+                    "2W": 10,
+                    "LW": 7,
+                    "TW": 8
+                },
+                "chart": {
+                    "key": "Grupo 05",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 5},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 7},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 7},
+                            {"x": 2, "y": 8},
+                            {"x": 3, "y": 8},
+                            {"x": 4, "y": 6},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 1}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 3},
+                            {"x": 2, "y": 7},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ]
+                    }
+                }
+            },
+            "fixed": {
+                "label": "GRUPO 06",
+                "count": {
+                    "2W": 21,
+                    "LW": 17,
+                    "TW": 14
+                },
+                "chart": {
+                    "key": "Grupo 06",
+                    "values": {
+                        "2W": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 7},
+                            {"x": 2, "y": 8},
+                            {"x": 3, "y": 8},
+                            {"x": 4, "y": 6},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 1}
+                        ],
+                        "LW": [
+                            {"x": 0, "y": 6},
+                            {"x": 1, "y": 5},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 5},
+                            {"x": 4, "y": 7},
+                            {"x": 5, "y": 4},
+                            {"x": 6, "y": 7}
+                        ],
+                        "TW": [
+                            {"x": 0, "y": 5},
+                            {"x": 1, "y": 7},
+                            {"x": 2, "y": 4},
+                            {"x": 3, "y": 6},
+                            {"x": 4, "y": 5},
+                            {"x": 5, "y": 3},
+                            {"x": 6, "y": 2}
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "widget6": {
+        "title": "Tareas ",
+        "ranges": {
+            "TW": "Esta Semana",
+            "LW": "Semana Pasada",
+            "2W": "Hace 2 Semanas"
+        },
+        "mainChart": [
+            {
+                "label": "Grupo 01",
+                "values": {
+                    "2W": 18,
+                    "LW": 19,
+                    "TW": 15
+                }
+            },
+            {
+                "label": "Grupo 02",
+                "values": {
+                    "2W": 17,
+                    "LW": 16,
+                    "TW": 20
+                }
+            },
+            {
+                "label": "Grupo 03",
+                "values": {
+                    "2W": 40,
+                    "LW": 42,
+                    "TW": 38
+                }
+            },
+            {
+                "label": "Grupo04",
+                "values": {
+                    "2W": 25,
+                    "LW": 23,
+                    "TW": 27
+                }
+            }
+        ],
+        "footerLeft": {
+            "title": "Tareas",
+            "count": {
+                "2W": 487,
+                "LW": 526,
+                "TW": 594
+            }
+        },
+        "footerRight": {
+            "title": "Tareas Realizadas",
+            "count": {
+                "2W": 193,
+                "LW": 260,
+                "TW": 287
+            }
+        }
+    },
+    "widget7": {
+        "title": "Agenda",
+        "ranges": {
+            "T": "Ahora",
+            "TM": "Mañana"
+        },
+        "schedule": {
+            "T": [
+                {
+                    "title": "Presentacion de Demo",
+                    "time": "1 hora",
+                    "location": "Sala de reuniones"
+                },
+                {
+                    "title": "Almuerzo ejecutivo",
+                    "time": "12 MD"
+                },
+                {
+                    "title": "Presentar informe",
+                    "time": "2:00 PM"
+                },
+                {
+                    "title": "Cierre informe",
+                    "time": "4:00 PM"
+                },
+                {
+                    "title": "Enviar cierre",
+                    "time": "7:30 PM"
+                }
+            ],
+            "TM": [
+                {
+                    "title": "Ajustes Portal",
+                    "time": "3 horas",
+                    "location": "Oficina Central"
+                },
+                {
+                    "title": "Almuerzo ejecutivo",
+                    "time": "12 MD"
+                },
+                {
+                    "title": "Presentar informe",
+                    "time": "2:00 PM"
+                },
+                {
+                    "title": "Cierre",
+                    "time": "7:30 PM"
+                }
+            ]
+        }
+    },
+    "widget8": {
+        "title": "Distribucion de tareas",
+        "mainChart": [
+            {
+                "label": "Wireframing",
+                "value": 12
+            },
+            {
+                "label": "Design",
+                "value": 17
+            },
+            {
+                "label": "Coding",
+                "value": 28
+            },
+            {
+                "label": "Marketing",
+                "value": 25
+            },
+            {
+                "label": "Extra",
+                "value": 15
+            }
+        ]
+    },
+    "widget9": {
+        "title": "Gastos",
+        "ranges": {
+            "TW": "This Week",
+            "LW": "Last Week",
+            "2W": "2 Weeks Ago"
+        },
+        "weeklySpent": {
+            "title": "Gastos semanales",
+            "count": {
+                "2W": "2,682.85",
+                "LW": "1,445.34",
+                "TW": "3,630.15"
+            },
+            "chart": {
+                "label": "Weekly Spent",
+                "values": {
+                    "2W": [
+                        {"x": 0, "y": 6},
+                        {"x": 1, "y": 1},
+                        {"x": 2, "y": 3},
+                        {"x": 3, "y": 4},
+                        {"x": 4, "y": 5},
+                        {"x": 5, "y": 5},
+                        {"x": 6, "y": 2}
+                    ],
+                    "LW": [
+                        {"x": 0, "y": 4},
+                        {"x": 1, "y": 6},
+                        {"x": 2, "y": 2},
+                        {"x": 3, "y": 2},
+                        {"x": 4, "y": 1},
+                        {"x": 5, "y": 3},
+                        {"x": 6, "y": 4}
+                    ],
+                    "TW": [
+                        {"x": 0, "y": 2},
+                        {"x": 1, "y": 6},
+                        {"x": 2, "y": 5},
+                        {"x": 3, "y": 4},
+                        {"x": 4, "y": 5},
+                        {"x": 5, "y": 3},
+                        {"x": 6, "y": 6}
+                    ]
+                }
+            }
+        },
+        "totalSpent": {
+            "title": "Gastos totales",
+            "count": {
+                "2W": "29,682.85",
+                "LW": "31,128.19",
+                "TW": "34,758.34"
+            },
+            "chart": {
+                "label": "Spent",
+                "values": {
+                    "2W": [
+                        {"x": 0, "y": 3},
+                        {"x": 1, "y": 2},
+                        {"x": 2, "y": 2},
+                        {"x": 3, "y": 4},
+                        {"x": 4, "y": 7},
+                        {"x": 5, "y": 7},
+                        {"x": 6, "y": 4}
+                    ],
+                    "LW": [
+                        {"x": 0, "y": 5},
+                        {"x": 1, "y": 7},
+                        {"x": 2, "y": 8},
+                        {"x": 3, "y": 8},
+                        {"x": 4, "y": 6},
+                        {"x": 5, "y": 4},
+                        {"x": 6, "y": 1}
+                    ],
+                    "TW": [
+                        {"x": 0, "y": 6},
+                        {"x": 1, "y": 3},
+                        {"x": 2, "y": 7},
+                        {"x": 3, "y": 5},
+                        {"x": 4, "y": 5},
+                        {"x": 5, "y": 4},
+                        {"x": 6, "y": 7}
+                    ]
+                }
+            }
+        },
+        "remaining": {
+            "title": "Remanente",
+            "count": {
+                "2W": "94.317,15",
+                "LW": "92.871,81",
+                "TW": "89.241,66"
+            },
+            "chart": {
+                "label": "Remaining",
+                "values": {
+                    "2W": [
+                        {"x": 0, "y": 1},
+                        {"x": 1, "y": 4},
+                        {"x": 2, "y": 5},
+                        {"x": 3, "y": 7},
+                        {"x": 4, "y": 8},
+                        {"x": 5, "y": 2},
+                        {"x": 6, "y": 4}
+                    ],
+                    "LW": [
+                        {"x": 0, "y": 3},
+                        {"x": 1, "y": 2},
+                        {"x": 2, "y": 1},
+                        {"x": 3, "y": 4},
+                        {"x": 4, "y": 8},
+                        {"x": 5, "y": 8},
+                        {"x": 6, "y": 4}
+                    ],
+                    "TW": [
+                        {"x": 0, "y": 2},
+                        {"x": 1, "y": 4},
+                        {"x": 2, "y": 8},
+                        {"x": 3, "y": 6},
+                        {"x": 4, "y": 2},
+                        {"x": 5, "y": 5},
+                        {"x": 6, "y": 1}
+                    ]
+                }
+            }
+        },
+        "totalRemaining": {
+            "title": "Total",
+            "count": "124.000,00"
+        },
+        "totalBudget": {
+            "title": "TOTAL BUDGET",
+            "count": "124.000,00"
+        }
+    },
+    "widget10": {
+        "title": "Budget Details",
+        "table": {
+            "columns": [
+                {
+                    "title": "Budget Type"
+                },
+                {
+                    "title": "Total Budget"
+                },
+                {
+                    "title": "Spent ($)"
+                },
+                {
+                    "title": "Spent (%)"
+                },
+                {
+                    "title": "Remaining ($)"
+                },
+                {
+                    "title": "Remaining (%)"
+                }
+            ],
+            "rows": [
+                [
+                    {
+                        "value": "Wireframing",
+                        "classes": "text-boxed m-0 deep-orange-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$14,880.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$14,000.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%94.08",
+                        "classes": "red-fg",
+                        "icon": "icon icon-trending-up s14 red-fg"
+                    },
+                    {
+                        "value": "$880.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%5.92",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Design",
+                        "classes": "text-boxed m-0 purple-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$21,080.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$17,240.34",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%81.78",
+                        "classes": "red-fg",
+                        "icon": "icon icon-trending-up s14 red-fg"
+                    },
+                    {
+                        "value": "$3,839.66",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%18.22",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Coding",
+                        "classes": "text-boxed m-0 light-blue-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$3,518.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%10.13",
+                        "classes": "green-fg",
+                        "icon": "icon icon-trending-down s14 green-fg"
+                    },
+                    {
+                        "value": "$31,202.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%89.87",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Marketing",
+                        "classes": "text-boxed m-0 pink-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$0.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%0.00",
+                        "classes": "green-fg",
+                        "icon": "icon icon-minus s14 green-fg"
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%100.00",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Extra",
+                        "classes": "text-boxed m-0 amber-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$18,600.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$0.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%0.00",
+                        "classes": "green-fg",
+                        "icon": "icon icon-minus s14 green-fg"
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%100.00",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ]
+            ]
+        }
+    },
+    "widget11": {
+        "title": "Empleados",
+        "table": {
+            "columns": [
+                {
+                    "title": ""
+                },
+                {
+                    "title": "Nombre"
+                },
+                {
+                    "title": "Cargo"
+                },
+                {
+                    "title": "Oficina"
+                },
+                {
+                    "title": "E-Mail"
+                },
+                {
+                    "title": "Telefono"
+                }
+            ],
+            "rows": [
+                [
+                    "james.jpg",
+                    "Jack Gilbert",
+                    "Design Manager",
+                    "Johor Bahru",
+                    "jgilbert48@mail.com",
+                    "+16 298 032 7774"
+                ],
+                [
+                    "katherine.jpg",
+                    "Kathy Anderson",
+                    "Recruiting Manager",
+                    "Solţānābād",
+                    "kanderson49@mail.com.br",
+                    "+23 572 311 1136"
+                ],
+                [
+                    "andrew.jpg",
+                    "Mark Turner",
+                    "Recruiting Manager",
+                    "Neftegorsk",
+                    "mturner4a@mail.com",
+                    "+01 139 803 9263"
+                ],
+                [
+                    "jane.jpg",
+                    "Kathryn Martinez",
+                    "Director of Sales",
+                    "Palekastro",
+                    "kmartinez4b@mail.com",
+                    "+25 467 022 5393"
+                ],
+                [
+                    "alice.jpg",
+                    "Annie Gonzales",
+                    "Actuary",
+                    "Candon",
+                    "agonzales4c@mail.edu",
+                    "+99 891 619 7138"
+                ],
+                [
+                    "vincent.jpg",
+                    "Howard King",
+                    "Human Resources",
+                    "Bergen op Zoom",
+                    "hking4d@mail.gov",
+                    "+46 984 348 1409"
+                ],
+                [
+                    "joyce.jpg",
+                    "Elizabeth Dixon",
+                    "Electrical Engineer",
+                    "Písečná",
+                    "edixon4e@mail.gov",
+                    "+33 332 067 9063"
+                ],
+                [
+                    "danielle.jpg",
+                    "Dorothy Morris",
+                    "Office Assistant",
+                    "Magsaysay",
+                    "dmorris4f@mail.com",
+                    "+05 490 958 6120"
+                ],
+                [
+                    "carl.jpg",
+                    "Mark Gonzales",
+                    "Quality Control",
+                    "Matsue-shi",
+                    "mgonzales4g@mail.com",
+                    "+03 168 394 9935"
+                ],
+                [
+                    "profile.jpg",
+                    "Catherine Rogers",
+                    "Programmer Analyst",
+                    "Kangar",
+                    "crogers4h@mail.com",
+                    "+86 235 407 5373"
+                ],
+                [
+                    "garry.jpg",
+                    "Ruth Grant",
+                    "Community Outreach",
+                    "Beaune",
+                    "rgrant4i@mail.pl",
+                    "+36 288 083 8460"
+                ],
+                [
+                    "james.jpg",
+                    "Phyllis Gutierrez",
+                    "Administrative Assistant",
+                    "Shlissel’burg",
+                    "pgutierrez4j@mail.net",
+                    "+52 749 861 9304"
+                ],
+                [
+                    "alice.jpg",
+                    "Lillian Morris",
+                    "Media Planner",
+                    "Berlin",
+                    "lmorris4k@mail.de",
+                    "+59 695 110 3856"
+                ],
+                [
+                    "vincent.jpg",
+                    "Jeremy Anderson",
+                    "Systems Engineer",
+                    "Lũng Hồ",
+                    "janderson4l@mail.uk",
+                    "+40 384 115 1448"
+                ],
+                [
+                    "carl.jpg",
+                    "Arthur Lawrence",
+                    "Nurse Practicioner",
+                    "Sarkanjut",
+                    "alawrence4m@mail.com",
+                    "+36 631 599 7867"
+                ],
+                [
+                    "andrew.jpg",
+                    "David Simmons",
+                    "Social Worker",
+                    "Ushumun",
+                    "dsimmons4n@mail.com",
+                    "+01 189 681 4417"
+                ],
+                [
+                    "danielle.jpg",
+                    "Daniel Johnston",
+                    "Help Desk",
+                    "São Carlos",
+                    "djohnston4o@mail.gov",
+                    "+60 028 943 7919"
+                ],
+                [
+                    "joyce.jpg",
+                    "Ann King",
+                    "Internal Auditor",
+                    "Liren",
+                    "aking4p@mail.com",
+                    "+91 103 932 6545"
+                ],
+                [
+                    "james.jpg",
+                    "Phillip Franklin",
+                    "VP Accounting",
+                    "Soba",
+                    "pfranklin4q@mail.com",
+                    "+25 820 986 7626"
+                ],
+                [
+                    "garry.jpg",
+                    "Gary Gonzalez",
+                    "Speech Pathologist",
+                    "Gangkou",
+                    "ggonzalez4r@mail.cc",
+                    "+10 862 046 7916"
+                ]
+            ]
+        }
+    },
+    "weatherWidget": {
+        "locations": {
+            "NewYork": {
+                "name": "San Jose",
+                "icon": "icon-weather-pouring",
+                "temp": {
+                    "C": "22",
+                    "F": "72"
+                },
+                "windSpeed": {
+                    "KMH": 12,
+                    "MPH": 7.5
+                },
+                "windDirection": "NW",
+                "rainProbability": "98%",
+                "next3Days": [
+                    {
+                        "name": "Doming",
+                        "icon": "icon-weather-pouring",
+                        "temp": {
+                            "C": "21",
+                            "F": "70"
+                        }
+                    },
+                    {
+                        "name": "Lunes",
+                        "icon": "icon-weather-pouring",
+                        "temp": {
+                            "C": "19",
+                            "F": "66"
+                        }
+                    },
+                    {
+                        "name": "Martes",
+                        "icon": "icon-weather-partlycloudy",
+                        "temp": {
+                            "C": "24",
+                            "F": "75"
+                        }
+                    }
+                ]
+            }
+        },
+        "currentLocation": "NewYork",
+        "tempUnit": "C",
+        "speedUnit": "KMH"
+    }
+}
