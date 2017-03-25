@@ -7,60 +7,219 @@
         "title": "Racimos por cable"
     },
 
-    "widget6": {
+    "widget3": {
         "title": "Aporte por Cable ",
         "ranges": {
             "A": "Todos"
-        },
-        "mainChart": [
-            {
-                "label": "Cable 01",
-                "values": {
-                    "A": 18,
-                    "LW": 19,
-                    "TW": 15
+        }
+    },
+
+    "widget4": {
+        "title": "Aporte por Cuadrilla ",
+        "ranges": {
+            "A": "Todos"
+        }
+    },
+    "widget5": {
+        "title": "Detalle de viajes",
+        "table": {
+            "columns": [
+                {
+                    "title": "Fecha"
+                },
+                {
+                    "title": "Número"
+                },
+                {
+                    "title": "Finca"
+                },
+                {
+                    "title": "Grupo"
+                },
+                {
+                    "title": "Cable"
+                },
+                {
+                    "title": "Destino"
+                },
+                {
+                    "title": "Embarque"
+                },
+                {
+                    "title": "Cuadrilla"
+                },
+                {
+                    "title": "Carrero"
+                },
+                {
+                    "title": "Racimos"
+                },
+                {
+                    "title": "Peso"
                 }
-            },
-            {
-                "label": "Cable 02",
-                "values": {
-                    "A": 17,
-                    "LW": 16,
-                    "TW": 20
-                }
-            },
-            {
-                "label": "Cable 03",
-                "values": {
-                    "A": 40,
-                    "LW": 42,
-                    "TW": 38
-                }
-            },
-            {
-                "label": "Cable 04",
-                "values": {
-                    "A": 25,
-                    "LW": 23,
-                    "TW": 27
-                }
-            }
-        ],
-        "footerLeft": {
-            "title": "Aportes",
-            "count": {
-                "A": 487,
-                "LW": 526,
-                "TW": 594
-            }
-        },
-        "footerRight": {
-            "title": "Totalizados",
-            "count": {
-                "A": 193,
-                "LW": 260,
-                "TW": 287
-            }
+            ],
+            "rows": [
+                [
+                    {
+                        "value": "Wireframing",
+                        "classes": "text-boxed m-0 deep-orange-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$14,880.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$14,000.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%94.08",
+                        "classes": "red-fg",
+                        "icon": "icon icon-trending-up s14 red-fg"
+                    },
+                    {
+                        "value": "$880.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%5.92",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Design",
+                        "classes": "text-boxed m-0 purple-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$21,080.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$17,240.34",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%81.78",
+                        "classes": "red-fg",
+                        "icon": "icon icon-trending-up s14 red-fg"
+                    },
+                    {
+                        "value": "$3,839.66",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%18.22",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Coding",
+                        "classes": "text-boxed m-0 light-blue-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$3,518.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%10.13",
+                        "classes": "green-fg",
+                        "icon": "icon icon-trending-down s14 green-fg"
+                    },
+                    {
+                        "value": "$31,202.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%89.87",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Marketing",
+                        "classes": "text-boxed m-0 pink-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$0.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%0.00",
+                        "classes": "green-fg",
+                        "icon": "icon icon-minus s14 green-fg"
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%100.00",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "Extra",
+                        "classes": "text-boxed m-0 amber-bg white-fg",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$18,600.00",
+                        "classes": "text-bold",
+                        "icon": ""
+                    },
+                    {
+                        "value": "$0.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%0.00",
+                        "classes": "green-fg",
+                        "icon": "icon icon-minus s14 green-fg"
+                    },
+                    {
+                        "value": "$34,720.00",
+                        "classes": "",
+                        "icon": ""
+                    },
+                    {
+                        "value": "%100.00",
+                        "classes": "",
+                        "icon": ""
+                    }
+                ]
+            ]
         }
     }
 }
